@@ -6,7 +6,7 @@
 //
 //
 
-public enum Region: String {
+public enum Region: String, CaseIterable {
     case useast1 = "us-east-1"
     case useast2 = "us-east-2"
     case uswest1 = "us-west-1"
